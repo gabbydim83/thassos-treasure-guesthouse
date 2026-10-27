@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#092f39">
+  <meta name="description" content="Thassos Treasure Guesthouse in Skala Prinos, Thassos. Eight comfortable rooms, up to 16 guests, beach access and guest sunbeds. Explore 2027 early booking rates and request your stay directly.">
+  <title>Thassos Treasure Guesthouse | Your Seaside Stay in Thassos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="Assets/Images/Refugiu mediteranean lângă mare.webp">
+  <style>
+    :root{--sea:#0b3440;--sea-dark:#092b35;--teal:#247f86;--aqua:#7fd4d1;--sand:#f1ede4;--cream:#faf9f5;--ink:#173740;--muted:#657c7b;--border:#d9e4df;--white:#fff;--shadow:0 24px 65px rgba(5,44,53,.14);--sans:'DM Sans',sans-serif;--display:'Playfair Display',Georgia,serif;--strong:'Manrope',sans-serif}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    body.no-scroll{overflow:hidden}
+    img{max-width:100%;display:block}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed}
+    a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e0a567;outline-offset:3px}
+    .wrap{width:min(1180px,calc(100% - 72px));margin-inline:auto}.section{padding:116px 0}.eyebrow{font:800 11px/1.5 var(--strong);letter-spacing:.23em;text-transform:uppercase;color:var(--teal);margin:0 0 17px}
+    h1,h2,h3,p{margin-top:0}h1,h2,h3{font-weight:500}h2{font:500 clamp(36px,4.3vw,62px)/1.17 var(--display);letter-spacing:-.035em;margin-bottom:24px}h3{font:500 29px/1.22 var(--display);letter-spacing:-.02em}p{line-height:1.8}small{line-height:1.6}.muted{color:var(--muted)}.hide{display:none!important}
+    .btn{border:0;border-radius:100px;min-height:52px;padding:14px 26px;display:inline-flex;align-items:center;justify-content:center;gap:11px;font:800 12px/1.3 var(--strong);text-transform:uppercase;letter-spacing:.095em;transition:transform .2s,background .2s,color .2s,box-shadow .2s;white-space:nowrap}
+    .btn:hover{transform:translateY(-2px)}.btn-primary{color:var(--sea);background:var(--aqua)}.btn-primary:hover{background:#a5e6df;box-shadow:0 10px 25px #041f2650}.btn-dark{background:var(--sea);color:white}.btn-dark:hover{background:var(--teal)}.btn-outline{color:white;border:1px solid #ffffff90;background:#ffffff14}.btn-outline:hover{background:#ffffff30}.btn-light{color:var(--sea);background:white}.btn-mini{min-height:42px;padding:10px 16px;font-size:10px}
+    .ico{width:20px;height:20px;flex:none;display:inline-block;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;fill:none;vertical-align:middle}.ico.sm{width:16px;height:16px}.ico.lg{width:27px;height:27px}
+    .topbar{height:32px;background:var(--sea-dark);color:#e3f4ee;font:700 10px var(--strong);letter-spacing:.13em;text-transform:uppercase}.topbar-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}.topbar span:last-child{color:#bad9d2}
+    .header{height:86px;position:absolute;z-index:50;left:0;right:0;top:32px;color:white;border-bottom:1px solid #ffffff45;transition:background .2s}.header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:27px}
+    .brand{display:flex;align-items:center;gap:12px;min-width:208px}.brand-emblem{width:44px;height:44px;border:1px solid #d9eee6;display:grid;place-items:center;border-radius:50%;position:relative}.brand-emblem::after{content:'✦';color:#ead1a4;position:absolute;top:2px;right:2px;font-size:9px}.brand-emblem .ico{width:24px;height:24px}.brand-name{font:600 20px/1.05 var(--display);letter-spacing:.014em}.brand-sub{display:block;font:700 8px/1.8 var(--strong);letter-spacing:.18em;text-transform:uppercase;color:#dbe9de;margin-top:4px}
+    .nav-links{display:flex;align-items:center;gap:24px}.nav-links a{font:700 10px var(--strong);text-transform:uppercase;letter-spacing:.09em;white-space:nowrap;opacity:.92}.nav-links a:hover{opacity:1;color:#bbede7}
+    .nav-book{min-height:41px;font-size:10px;padding:11px 17px}.menu-toggle{display:none;width:45px;height:45px;border:1px solid #ffffff73;background:#ffffff12;color:white;border-radius:50%;align-items:center;justify-content:center}.mobile-menu{display:none}
+    .hero{height:min(850px,94svh);min-height:655px;color:white;position:relative;background:var(--sea);overflow:hidden}.hero-media,.hero-shade{position:absolute;inset:0;width:100%;height:100%}.hero-media{overflow:hidden}.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 49%;opacity:0;transition:opacity .9s ease}.hero-img.is-active{opacity:1}.hero-shade{background:linear-gradient(90deg,rgba(3,28,36,.84) 0%,rgba(5,30,39,.55) 46%,rgba(5,30,39,.10) 88%),linear-gradient(0deg,rgba(4,31,39,.54) 0,transparent 42%)}
+    .hero-content{height:100%;position:relative;z-index:2;display:flex;align-items:center;padding-top:70px}.hero-content-inner{max-width:770px;padding-top:12px}.hero-eyebrow{color:#b5e8df;font:800 11px var(--strong);letter-spacing:.26em;text-transform:uppercase;margin:0 0 27px}.hero h1{font:400 clamp(63px,7vw,108px)/1.06 var(--display);letter-spacing:-.045em;margin-bottom:24px;text-wrap:balance}.hero h1 em{font-weight:400;color:#b3e9e1}.hero-copy{font-size:16px;color:#f1f6f0;max-width:560px;line-height:1.9;margin-bottom:31px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-meta{display:flex;flex-wrap:wrap;gap:22px;margin-top:39px;color:#e8f3ed;font-size:12px}.hero-meta span{display:flex;align-items:center;gap:8px}.hero-meta .ico{color:#bbebe1;width:17px;height:17px}
+    .hero-offer{position:absolute;z-index:3;right:max(36px,calc((100vw - 1180px)/2));bottom:35px;background:#f8f6efed;color:var(--sea);border-radius:12px;padding:17px 21px;backdrop-filter:blur(12px);min-width:245px;box-shadow:var(--shadow)}.hero-offer small{font:800 9px var(--strong);letter-spacing:.15em;text-transform:uppercase;color:var(--teal)}.hero-offer strong{display:block;font:600 31px var(--display);margin-top:4px;line-height:1.15}.hero-offer strong span{font:600 11px var(--strong)}.hero-offer p{font-size:10px;line-height:1.5;margin:4px 0 0;color:#526b68}.hero-offer.no-rate strong{font-size:22px}
+    .scroll-cue{position:absolute;z-index:2;left:max(36px,calc((100vw - 1180px)/2));bottom:45px;font:700 9px var(--strong);letter-spacing:.2em;text-transform:uppercase;display:flex;gap:13px;align-items:center;color:#f0f5ef}.scroll-cue::before{content:'';width:40px;height:1px;background:#e5f6f2}
+    .intro{background:#faf9f5}.intro-grid{display:grid;grid-template-columns:.93fr 1fr;gap:clamp(50px,9vw,130px);align-items:center}.intro-visual{position:relative;padding:0 35px 35px 0}.intro-img{width:100%;height:610px;object-fit:cover;object-position:center 47%;border-radius:200px 200px 12px 12px}.intro-stamp{position:absolute;bottom:5px;right:0;width:150px;height:150px;display:grid;place-items:center;border-radius:50%;background:#d8ede6;color:var(--sea);text-align:center;padding:23px;border:9px solid var(--cream);font:600 16px/1.6 var(--display)}.intro-copy{font-size:15px;max-width:510px;color:#516d6b}.underlined{color:var(--sea);font-weight:700;border-bottom:1px solid #7cb3ad}.icon-features{display:grid;grid-template-columns:1fr 1fr;gap:24px 20px;margin:31px 0 33px}.icon-feature{display:flex;align-items:center;gap:11px;font-size:12px;font-weight:700;color:#3b625d}.icon-feature .ico{color:var(--teal)}
+    .rooms{background:#ebf3ef}.rooms-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:45px}.rooms-heading h2{max-width:730px;margin-bottom:0}.rooms-heading p{max-width:320px;font-size:13px;line-height:1.85;color:#607b74;margin-bottom:5px}
+    .rooms-layout{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.rooms-main{position:relative;min-height:475px;overflow:hidden;border-radius:10px}.rooms-main img{width:100%;height:100%;object-fit:cover}.rooms-main-note{position:absolute;bottom:24px;left:24px;background:#f8f7edee;color:var(--sea);padding:16px 20px;border-radius:8px;backdrop-filter:blur(6px);font:600 16px var(--display)}.rooms-side{display:grid;grid-template-rows:1fr 1fr;gap:20px}.rooms-side img{width:100%;height:227.5px;object-fit:cover;border-radius:10px}.room-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:36px 0 20px}.room-fact{padding:18px 0;border-top:1px solid #a6c7bd}.room-fact strong{font:500 30px var(--display);display:block}.room-fact span{font-size:11px;color:#50716c;display:block;margin-top:5px}.rooms-note{max-width:740px;color:#516e68;font-size:13px;line-height:1.8;margin-bottom:30px}
+    .beach{background:#fff}.beach-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:70px;align-items:center}.beach-collage{height:580px;position:relative}.beach-collage .beach-tall{width:66%;height:100%;object-fit:cover;border-radius:180px 180px 8px 8px}.beach-collage .beach-small{position:absolute;width:50%;height:270px;object-fit:cover;right:0;bottom:23px;border:10px solid #fff;border-radius:9px;box-shadow:var(--shadow)}.beach-text{max-width:500px}.beach-text>p:not(.eyebrow){font-size:15px;color:#59736f}.beach-perks{display:flex;gap:15px;align-items:center;border-top:1px solid var(--border);padding:21px 0;font-size:13px;font-weight:700}.beach-perks .ico{color:var(--teal);width:24px;height:24px}.beach-perks:last-of-type{border-bottom:1px solid var(--border);margin-bottom:27px}
+    .quote-band{background:var(--sea);color:white;padding:42px 0}.quote-row{display:flex;align-items:center;justify-content:space-between;gap:25px}.quote-row strong{font:400 27px/1.3 var(--display);letter-spacing:-.01em}.quote-row span{font-size:12px;color:#cbe1d9}
+    .booking{background:#f4f2e9;padding:104px 0 112px}.booking-head{text-align:center;max-width:820px;margin:0 auto 42px}.booking-head .eyebrow{margin-bottom:13px}.booking-head h2{font-size:clamp(44px,5.6vw,77px);margin-bottom:17px}.booking-head>p:last-child{color:#63736d;font-size:14px}
+    .offer-intro{display:flex;align-items:center;justify-content:space-between;gap:26px;background:#e2eee9;border:1px solid #c8dbd4;border-radius:17px 17px 0 0;padding:25px 32px}.offer-mainlabel{font:800 10px var(--strong);letter-spacing:.15em;color:#316d6b;text-transform:uppercase}.offer-price{font:500 clamp(40px,5vw,64px)/1.1 var(--display);color:#153d44;letter-spacing:-.03em;margin:4px 0}.offer-price span{font:700 13px var(--strong);color:#4b6e6b;letter-spacing:0}.offer-description{color:#536e68;font-size:12px;max-width:460px;line-height:1.7}.price-refresh{font:700 11px var(--strong);color:#57756e;white-space:nowrap}.booking-shell{border-radius:0 0 18px 18px;background:white;border:1px solid #dce5df;border-top:0;box-shadow:0 25px 70px rgba(29,61,55,.07);overflow:hidden}
+    .rate-choices{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:26px 32px 17px}.rate-option{position:relative;border:1.5px solid #d3e1da;border-radius:12px;padding:21px 22px;cursor:pointer;min-height:135px;transition:background .2s,border-color .2s,box-shadow .2s}.rate-option:has(input:checked){border-color:#207c7d;background:#f1faf6;box-shadow:inset 0 0 0 1px #207c7d}.rate-option input{position:absolute;top:22px;right:21px;width:19px;height:19px;accent-color:#1b7777}.rate-label{font:800 12px var(--strong);margin:0 35px 9px 0}.rate-number{font:500 29px var(--display);color:var(--sea)}.rate-unit{font-size:11px;color:#637c73;margin-left:5px}.rate-sub{font-size:12px;color:#5e7770;line-height:1.6;margin:9px 0 0;max-width:360px}
+    .rate-disclaimer{margin:0 32px 30px;padding:14px 18px;border-left:3px solid #7fb9ae;background:#f1f6f1;color:#476861;font-size:12px;line-height:1.75}
+    .rate-timetable{margin:0 32px 29px;border:1px solid #d7e6de;border-radius:10px;overflow:hidden}.rate-timetable summary{display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:13px 16px;background:#f6faf6;color:#315b57;font:800 11px var(--strong);list-style:none}.rate-timetable summary::-webkit-details-marker{display:none}.rate-timetable summary span{font-size:18px;line-height:1;color:#55867d}.rate-timetable[open] summary span{transform:rotate(45deg)}.schedule-scroll{overflow-x:auto}.rate-timetable table{width:100%;border-collapse:collapse;font-size:12px}.rate-timetable th{color:#376963;background:#ecf5ef;text-align:left;font-size:10px;padding:11px 15px;white-space:nowrap}.rate-timetable td{padding:10px 15px;border-top:1px solid #e2ece4;color:#3a5b58}.rate-timetable p{padding:0 16px 7px;font-size:11px;color:#597770}.date-strip{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 13px;background:#f2f7f3;border-radius:10px;margin:0 0 16px;color:#759188;font:700 9px var(--strong);letter-spacing:.05em}.date-strip span{flex:1}.date-strip span:last-child{text-align:right}.date-strip strong{display:block;color:#285651;font-size:12px;letter-spacing:0;margin-top:4px}.date-strip-arrow{font-size:18px;color:#51897e}.booking-body{display:grid;grid-template-columns:1.35fr .85fr;border-top:1px solid #e5ece8}.booking-calendar{padding:33px 32px 31px;border-right:1px solid #e5ece8}.booking-details{padding:33px 32px}.panel-title{font:800 11px var(--strong);letter-spacing:.14em;text-transform:uppercase;color:#2c6160;margin:0 0 20px}
+    .calendar-header{display:flex;align-items:center;gap:8px;justify-content:space-between;margin-bottom:20px}.calendar-heading{font:500 19px var(--display);text-align:center;color:#173d43}.cal-arrow{width:37px;height:37px;display:grid;place-items:center;border:1px solid #dbe6de;background:white;border-radius:50%;color:#255f62}.cal-arrow:hover:not(:disabled){background:#eaf4ef}.cal-arrow:disabled{opacity:.36}
+    .calendar-jump{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:17px}.calendar-jump select{appearance:none;border:1px solid #d4e4dc;background:#f8faf6;color:#355c59;padding:9px 28px 9px 12px;border-radius:7px;font-size:11px;cursor:pointer;background-image:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%23355c59" stroke-width="2"%3E%3Cpath d="m6 9 6 6 6-6"/%3E%3C/svg%3E');background-position:right 9px center;background-repeat:no-repeat}.calendar-jump .quick-jump{border:0;background:#dcefea;color:#145e60;border-radius:100px;font:800 10px var(--strong);padding:10px 12px;margin-left:auto}
+    .months{display:grid;grid-template-columns:1fr 1fr;gap:22px}.month-title{text-align:center;color:#294f4f;font:700 12px var(--strong);margin:0 0 12px}.weekdays,.days-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}.weekday{font:700 10px var(--strong);text-align:center;color:#91a69d;padding:10px 0}.cal-day{width:100%;aspect-ratio:1;min-height:31px;border:0;background:transparent;border-radius:7px;display:grid;place-items:center;color:#315354;font:700 11px var(--sans);transition:background .12s}.cal-day:hover:not(:disabled){background:#d7ebe5}.cal-day.blank{visibility:hidden}.cal-day:disabled{color:#c5d2ca}.cal-day.in-range{background:#e1f2ec;border-radius:0}.cal-day.start-date,.cal-day.end-date{background:#146d70;color:white;border-radius:8px}.cal-day.today{box-shadow:inset 0 0 0 1px #9ac6bb}.cal-day[data-date]:focus-visible{position:relative;z-index:2}
+    .cal-helper{font-size:11px;color:#658077;line-height:1.6;margin:17px 0 0;display:flex;gap:8px;align-items:flex-start}.cal-helper .ico{margin-top:2px;color:#6eaaa0;width:15px;height:15px}
+    .selected-dates{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:24px 0}.date-box{background:#f3f7f4;border:1px solid #dce8e1;border-radius:9px;padding:14px}.date-box small{display:block;font:800 10px var(--strong);color:#66837a;letter-spacing:.09em;margin-bottom:5px}.date-box span{font:600 15px var(--strong);color:#22474b}
+    .field{display:flex;flex-direction:column;gap:8px;margin-bottom:17px}.field label{font:800 11px var(--strong);color:#345b55}.field select,.field input,.field textarea{width:100%;min-height:46px;border:1px solid #d3e1da;border-radius:9px;color:#213e40;background:white;padding:12px;font-size:13px;outline-offset:3px}.field textarea{resize:vertical;min-height:87px}.field select{cursor:pointer}.field input::placeholder,.field textarea::placeholder{color:#a1b2aa}.required{color:#ad6f39}
+    .summary{background:#0e3b43;color:white;border-radius:12px;padding:22px;margin-top:4px}.summary-title{color:#b5dfd5;font:800 10px var(--strong);text-transform:uppercase;letter-spacing:.16em;margin-bottom:14px}.summary-line{display:flex;justify-content:space-between;gap:14px;font-size:12px;padding:6px 0}.summary-line span:first-child{color:#b8d2cb}.summary strong{font-weight:700}.summary .summary-total{font:600 26px var(--display);color:#fff}.summary-rule{height:1px;background:#ffffff2a;margin:11px 0}.summary-note{color:#bdd6cf;font-size:10px;line-height:1.65;margin:12px 0 0}
+    .booking-contact{padding:26px 32px 8px;border-top:1px solid #e5ece8}.booking-direct{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;background:#f5f8f4;border:1px solid #dde8e0;border-radius:12px;color:#456761}.booking-direct .ico{width:22px;height:22px;color:var(--teal);flex:none;margin-top:1px}.booking-direct strong{display:block;font:800 11px var(--strong);letter-spacing:.13em;text-transform:uppercase;color:#2e6664;margin-bottom:6px}.booking-direct p{font-size:12px;line-height:1.75;margin:0}.booking-bottom{padding:0 32px 31px}.booking-bottom .field{margin:0 0 18px}.request-btn{width:100%;margin-top:3px}.booking-legal{font-size:11px;color:#697f76;line-height:1.7;text-align:center;margin:13px 0 0}.booking-legal strong{color:#385f5b}
+    .gallery{background:#fbfaf6}.section-center{text-align:center;max-width:750px;margin-inline:auto}.section-center>p:last-child{color:#627870;font-size:14px}.gallery-controls{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:36px 0 30px}.gallery-filter{border:1px solid #d4e0d7;border-radius:100px;background:white;color:#57726b;padding:10px 17px;font:800 10px var(--strong);text-transform:uppercase;letter-spacing:.09em}.gallery-filter.active,.gallery-filter:hover{background:var(--sea);color:white;border-color:var(--sea)}.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.gallery-tile{position:relative;border:0;background:transparent;padding:0;overflow:hidden;border-radius:10px;aspect-ratio:1.15;isolation:isolate}.gallery-tile:nth-child(1),.gallery-tile:nth-child(7){grid-column:span 2;aspect-ratio:2.36}.gallery-tile img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery-tile:hover img{transform:scale(1.06)}.gallery-tile:after{content:'';position:absolute;inset:50% 0 0;background:linear-gradient(transparent,#102b3999);pointer-events:none}.gallery-tile span{position:absolute;bottom:15px;left:17px;color:white;z-index:1;font:700 11px var(--strong)}.gallery-tile .gallery-plus{right:14px;left:auto;border:1px solid #ffffffac;border-radius:50%;width:28px;height:28px;display:grid;place-items:center;font-size:18px;font-weight:400}
+    .facilities{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:32px}.facility{background:#edf3ee;border:1px solid #dce9df;border-radius:100px;padding:12px 16px;display:flex;align-items:center;gap:8px;color:#42645f;font-size:11px;font-weight:700}.facility .ico{width:16px;height:16px;color:var(--teal)}
+    .gift{background:#e8efe8;padding:88px 0}.gift-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.gift-grid img{width:100%;height:390px;object-fit:cover;border-radius:12px}.gift h2{font-size:clamp(38px,4.1vw,55px)}.gift p:not(.eyebrow){color:#57726a;font-size:14px}.gift .gift-tag{font:700 11px var(--strong);color:var(--teal);text-transform:uppercase;letter-spacing:.12em}
+    .location{background:#fff;padding:100px 0}.location-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:75px;align-items:center}.location h2{max-width:490px}.location p:not(.eyebrow){color:#59716b;font-size:14px}.location-photo{position:relative}.location-photo img{width:100%;height:415px;object-fit:cover;border-radius:9px}.location-card{position:absolute;background:#f9f8f2;bottom:-24px;left:-27px;padding:24px 28px;border-radius:8px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;font:700 13px var(--strong);color:#2c5854}.location-card small{font-size:11px;display:block;color:#81998e;margin-top:4px}
+    .faq{background:#f3f4ed;padding:80px 0}.faq-grid{display:grid;grid-template-columns:.6fr 1fr;gap:60px}.faq-grid h2{font-size:46px}.faq-items{border-top:1px solid #d3e0d6}.faq-item{border-bottom:1px solid #d3e0d6}.faq-item summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:19px 0;font-weight:700;font-size:13px}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary::after{content:'+';font:400 23px var(--sans);color:#47766c}.faq-item[open] summary::after{content:'−'}.faq-item p{font-size:12px;color:#547068;line-height:1.8;margin:0 0 20px;max-width:660px}
+    .footer{background:#0a303b;color:white;padding:65px 0 29px}.footer-grid{display:flex;justify-content:space-between;gap:40px;padding-bottom:51px}.footer .brand-name{font-size:26px}.footer-description{max-width:420px;color:#bfd3ce;font-size:12px;margin:20px 0}.footer-links{display:flex;gap:20px;flex-wrap:wrap;align-items:start}.footer-links a{font:700 10px var(--strong);text-transform:uppercase;letter-spacing:.09em;color:#d9e8df}.footer-bottom{border-top:1px solid #ffffff27;display:flex;justify-content:space-between;gap:20px;padding-top:22px;color:#a4c5bb;font-size:10px}.footer-bottom span:last-child{text-align:right}
+    .mobile-cta{display:none}
+    .lightbox{position:fixed;inset:0;background:#041b22ed;z-index:150;display:none;align-items:center;justify-content:center;padding:70px 65px 55px}.lightbox.open{display:flex}.lightbox img{max-width:min(1120px,100%);max-height:calc(100svh - 160px);object-fit:contain;box-shadow:0 18px 60px #0007}.lightbox-close,.lightbox-arrow{position:absolute;border:1px solid #ffffff70;background:#ffffff16;color:white;width:43px;height:43px;border-radius:50%;display:grid;place-items:center}.lightbox-close{top:19px;right:21px}.lightbox-prev{left:15px}.lightbox-next{right:15px}.lightbox-caption{position:absolute;bottom:20px;color:#eee;font-size:12px;max-width:75vw;text-align:center}
+    .modal{position:fixed;inset:0;z-index:200;background:#051d25bf;display:none;align-items:center;justify-content:center;padding:20px;overflow-y:auto}.modal.open{display:flex}.modal-card{max-width:600px;width:100%;max-height:calc(100svh - 40px);overflow:auto;background:#fff;border-radius:16px;padding:34px;position:relative;box-shadow:var(--shadow)}.modal-card h3{margin:0 0 7px}.modal-close{position:absolute;right:17px;top:17px;border:0;background:#f0f5f1;color:#285856;width:37px;height:37px;border-radius:50%;display:grid;place-items:center}.modal-notice{background:#fff6e7;border-left:3px solid #d39e5e;padding:12px 15px;margin:18px 0;font-size:12px;line-height:1.65;color:#6e5a39}.modal-pre{white-space:pre-wrap;word-break:break-word;background:#f3f8f5;border-radius:10px;padding:17px;color:#244b49;font:12px/1.8 var(--sans);max-height:43vh;overflow:auto}.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:19px}.toast{position:fixed;bottom:86px;left:50%;transform:translate(-50%,20px);background:#0b3440;color:white;padding:11px 18px;border-radius:100px;box-shadow:var(--shadow);font-size:12px;z-index:240;pointer-events:none;opacity:0;transition:transform .25s,opacity .25s;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:1100px){.nav-links{gap:14px}.nav-links a{font-size:9px}.brand{min-width:180px}.brand-name{font-size:18px}.wrap{width:min(1180px,calc(100% - 50px))}.beach-grid{gap:38px}.intro-grid{gap:60px}.gift-grid,.location-grid{gap:50px}}
+    @media(max-width:880px){.section{padding:85px 0}.topbar{height:28px}.header{top:28px;height:74px}.nav-links,.header .nav-book{display:none}.menu-toggle{display:flex}.mobile-menu{position:absolute;display:block;top:74px;left:0;right:0;background:#0c3540;max-height:0;opacity:0;visibility:hidden;overflow:hidden;transition:max-height .25s,opacity .25s,visibility .25s;border-bottom:1px solid #ffffff22}.mobile-menu.open{max-height:75vh;opacity:1;visibility:visible;overflow-y:auto}.mobile-menu a{display:block;padding:14px 25px;color:#f1f5ef;font:700 12px var(--strong);letter-spacing:.06em;text-transform:uppercase;border-top:1px solid #ffffff1e}.mobile-menu a:last-child{color:#b1e6dd}.hero h1{font-size:clamp(60px,9vw,85px)}.hero-offer{right:25px}.scroll-cue{left:25px}.intro-grid{grid-template-columns:.86fr 1fr;gap:35px}.intro-img{height:540px}.intro-stamp{width:125px;height:125px;font-size:13px}.rooms-heading{align-items:start;flex-direction:column;gap:12px}.rooms-heading p{max-width:600px}.beach-collage{height:500px}.beach-collage .beach-small{height:210px}.beach-text>p:not(.eyebrow){font-size:14px}.booking-body{grid-template-columns:1fr}.booking-calendar{border-right:0;border-bottom:1px solid #e5ece8}.booking-details{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.booking-details .panel-title,.selected-dates,.summary{grid-column:1/-1}.selected-dates{margin-top:7px}.booking-details .summary{margin-top:7px}.gallery-grid{grid-template-columns:repeat(3,1fr)}.gallery-tile:nth-child(1),.gallery-tile:nth-child(7){grid-column:span 1;aspect-ratio:1.15}.quote-row strong{font-size:23px}}
+    @media(max-width:640px){html{scroll-padding-top:69px}.wrap{width:calc(100% - 36px)}.section{padding:71px 0}.eyebrow{font-size:10px;letter-spacing:.17em;margin-bottom:13px}h2{font-size:clamp(35px,8.5vw,49px);margin-bottom:19px}.topbar{height:27px;font-size:8px;letter-spacing:.055em}.topbar span:last-child{display:none}.topbar-inner{justify-content:center}.header{top:27px;height:68px}.header-inner{gap:10px}.brand{min-width:0;gap:8px}.brand-emblem{width:37px;height:37px}.brand-emblem .ico{width:20px;height:20px}.brand-name{font-size:16px}.brand-sub{font-size:7px;letter-spacing:.1em}.menu-toggle{width:42px;height:42px}.mobile-menu{top:68px}
+      .hero{height:min(750px,91svh);min-height:640px}.hero-img{object-position:58% center}.hero-shade{background:linear-gradient(90deg,#092c39cc,#092c3990 70%,#092c394a),linear-gradient(0deg,#092d39ce,transparent 53%)}.hero-content{align-items:center;padding-top:34px;padding-bottom:85px}.hero-content-inner{padding-top:0}.hero-eyebrow{font-size:9px;letter-spacing:.13em;margin-bottom:19px}.hero h1{font-size:clamp(52px,12vw,75px);line-height:1.08;letter-spacing:-.045em;margin-bottom:17px}.hero-copy{font-size:13px;line-height:1.75;max-width:370px;margin-bottom:24px}.hero-actions{gap:8px}.hero-actions .btn{font-size:10px;padding:12px 16px;min-height:47px}.hero-meta{margin-top:21px;gap:9px 17px;font-size:10px}.hero-meta .ico{width:15px;height:15px}.hero-offer{bottom:24px;right:18px;left:18px;min-width:0;padding:13px 17px;display:block}.hero-offer strong{font-size:27px;white-space:nowrap}.hero-offer strong span{font-size:10px;display:inline-block;white-space:nowrap}.hero-offer p{max-width:none;font-size:10px;margin-top:6px}.scroll-cue{display:none}
+      .intro-grid{grid-template-columns:1fr;gap:32px}.intro-visual{padding:0 23px 20px 0}.intro-img{height:440px;object-position:center 51%}.intro-stamp{right:-4px;bottom:-2px;width:116px;height:116px;border-width:6px;font-size:12px}.intro-copy{font-size:13px}.icon-features{margin:26px 0;gap:16px 10px}.icon-feature{font-size:11px;gap:7px}.icon-feature .ico{width:18px;height:18px}
+      .rooms-heading{margin-bottom:24px}.rooms-layout{grid-template-columns:1fr;gap:11px}.rooms-main{min-height:310px}.rooms-side{grid-template-columns:1fr 1fr;grid-template-rows:auto;gap:11px}.rooms-side img{height:145px}.rooms-main-note{bottom:13px;left:13px;padding:12px 15px;font-size:13px}.room-facts{grid-template-columns:1fr 1fr;gap:3px 18px;margin:22px 0 16px}.room-fact strong{font-size:28px}.room-fact span{font-size:10px}.rooms-note{font-size:12px}
+      .beach-grid{display:flex;flex-direction:column;gap:25px}.beach-collage{height:470px;width:100%;order:2}.beach-collage .beach-tall{width:72%;object-position:53%}.beach-collage .beach-small{width:47%;height:203px;bottom:13px;border-width:6px}.beach-text{order:1}.beach-text>p:not(.eyebrow){font-size:13px}.beach-perks{padding:15px 0;font-size:12px}.quote-band{padding:26px 0}.quote-row{flex-direction:column;align-items:flex-start;gap:14px}.quote-row strong{font-size:24px}.quote-row .btn{width:100%}
+      .rate-timetable{margin:0 17px 19px}.rate-timetable summary{font-size:10px;line-height:1.5}.rate-timetable table{font-size:11px}.rate-timetable th,.rate-timetable td{padding:9px 10px}.date-strip{padding:10px}.date-strip strong{font-size:11px}.booking{padding:65px 0 80px}.booking-head{margin-bottom:27px}.booking-head h2{font-size:clamp(43px,10vw,56px)}.booking-head>p:last-child{font-size:12px;line-height:1.7}.offer-intro{padding:21px 20px;display:block}.offer-price{font-size:47px}.offer-price span{font-size:11px}.offer-description{margin:7px 0 0;font-size:11px}.price-refresh{display:block;margin-top:12px;font-size:10px}.rate-choices{padding:17px;gap:9px}.rate-option{padding:16px 12px;min-height:145px}.rate-option input{right:11px;top:14px;width:17px;height:17px}.rate-label{font-size:10px;max-width:100px;margin-right:12px}.rate-number{font-size:27px}.rate-unit{font-size:9px;margin:0;display:block}.rate-sub{font-size:10px;line-height:1.5;margin-top:8px}.rate-disclaimer{margin:0 17px 18px;font-size:11px;padding:12px}.booking-calendar,.booking-details{padding:23px 16px}.calendar-header{margin-bottom:12px}.calendar-heading{font-size:17px}.calendar-jump{margin-bottom:17px}.calendar-jump .quick-jump{margin-left:0}.months{grid-template-columns:1fr;gap:24px}.calendar-month{max-width:380px;width:100%;margin-inline:auto}.month-title{font-size:13px}.cal-day{min-height:42px;font-size:12px}.weekday{font-size:11px}.cal-helper{margin-bottom:0}.booking-details{display:block}.selected-dates{margin:15px 0}.date-box{padding:13px 10px}.date-box span{font-size:13px}.summary{padding:18px;margin-top:15px}.booking-contact{display:block;padding:25px 17px 3px}.booking-direct{padding:16px}.booking-bottom{padding:0 17px 24px}.booking-legal{font-size:10px}.booking-contact .field{margin-bottom:15px}
+      .gallery-controls{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin:25px -18px 20px;padding-left:18px;scrollbar-width:none}.gallery-controls::-webkit-scrollbar{display:none}.gallery-filter{white-space:nowrap;font-size:10px;flex:none}.gallery-grid{grid-template-columns:1fr 1fr;gap:9px}.gallery-tile,.gallery-tile:nth-child(1),.gallery-tile:nth-child(7){aspect-ratio:.88}.gallery-tile:first-child{grid-column:span 2;aspect-ratio:1.7}.gallery-tile span{font-size:9px;left:10px;bottom:11px}.gallery-tile .gallery-plus{right:8px}.facilities{gap:7px;margin-top:24px}.facility{font-size:10px;padding:9px 11px}
+      .gift{padding:63px 0}.gift-grid{display:flex;flex-direction:column-reverse;gap:22px}.gift-grid img{height:260px}.gift h2{font-size:38px}.gift p:not(.eyebrow){font-size:13px}.location{padding:70px 0 92px}.location-grid{grid-template-columns:1fr;gap:31px}.location-photo img{height:290px}.location-card{bottom:-20px;left:12px;padding:15px 17px;font-size:11px}.faq{padding:63px 0}.faq-grid{display:block}.faq-grid h2{font-size:39px}.faq-item summary{font-size:12px}.footer{padding:54px 0 104px}.footer-grid{display:block;padding-bottom:30px}.footer-links{gap:14px;margin-top:24px}.footer-description{font-size:12px}.footer-bottom{display:block;line-height:1.8}.footer-bottom span:last-child{display:block;text-align:left;margin-top:6px}
+      .mobile-cta{display:flex;position:fixed;z-index:65;bottom:0;left:0;right:0;padding:10px 17px calc(10px + env(safe-area-inset-bottom));background:#f8f8f3ed;backdrop-filter:blur(15px);border-top:1px solid #d6e5dc;align-items:center;gap:10px;justify-content:space-between;box-shadow:0 -7px 35px #0d33351b}.mobile-cta-price strong{display:block;color:var(--sea);font:600 21px var(--display)}.mobile-cta-price span{font-size:9px;color:#67827a;display:block}.mobile-cta .btn{min-height:43px;padding:11px 15px;font-size:10px}.mobile-cta.no-rate .mobile-cta-price strong{font-size:14px}.modal-card{padding:26px 19px}.lightbox{padding:70px 12px}.lightbox img{max-height:calc(100svh - 170px)}.lightbox-arrow{top:auto;bottom:68px}.lightbox-prev{left:calc(50% - 65px)}.lightbox-next{right:calc(50% - 65px)}.lightbox-caption{bottom:20px}
+    }
+    @media(max-width:365px){.brand-name{font-size:14px}.hero h1{font-size:48px}.hero-actions .btn{font-size:9px;padding:12px 13px}.cal-day{min-height:36px}.calendar-jump select{font-size:10px}.rate-option{padding:13px 9px}.rate-number{font-size:24px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+    /* V3: more of the beach visible; hero text starts at the extreme safe left gutter. */
+    .hero-content.wrap{width:100%;max-width:none;margin:0;padding-left:clamp(12px,1.6vw,24px);padding-right:12px}
+    .hero-content-inner{max-width:480px;padding-top:0}
+    .hero-eyebrow{font-size:9px;letter-spacing:.15em;margin-bottom:17px}
+    .hero h1{font-size:clamp(49px,5.15vw,72px);line-height:1.08;margin-bottom:16px;letter-spacing:-.04em}
+    .hero-copy{font-size:13px;line-height:1.75;max-width:425px;margin-bottom:22px}
+    .hero-actions .btn{font-size:10px;min-height:44px;padding:11px 16px}
+    .hero-actions{gap:9px}
+    .hero-meta{font-size:10px;gap:10px 18px;margin-top:24px}
+    .hero-shade{background:linear-gradient(90deg,rgba(3,28,36,.86) 0%,rgba(5,30,39,.65) 27%,rgba(5,30,39,.08) 63%),linear-gradient(0deg,rgba(4,31,39,.38),transparent 36%)}
+    .hero-offer{left:clamp(12px,1.6vw,24px);right:auto;bottom:24px;max-width:310px;min-width:225px;padding:13px 17px}
+    .hero-offer strong{font-size:27px}
+    .scroll-cue{display:none}
+
+    /* V3: three genuine property facts rather than zero-padded duplicate counters. */
+    .room-facts{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .room-fact strong{font-size:32px}
+    .room-fact span{max-width:185px;line-height:1.55;font-size:12px}
+
+    /* V3: payment choices live immediately under the Rooms requested field. */
+    .payment-selector{margin:9px 0 22px}
+    .payment-title{font:800 11px var(--strong);color:#345b55;margin-bottom:11px}
+    .booking-details .rate-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0}
+    .booking-details .rate-option{display:block;min-width:0;min-height:0;border-radius:10px;padding:14px 10px 12px}
+    .booking-details .rate-option input{top:11px;right:10px;width:16px;height:16px}
+    .booking-details .rate-label{font-size:10px;line-height:1.4;margin:0 16px 8px 0}
+    .booking-details .rate-number{display:block;font-size:25px;line-height:1.16}
+    .booking-details .rate-unit{display:block;font-size:9px;line-height:1.6;margin:2px 0 0}
+    .booking-details .rate-sub{font-size:10px;line-height:1.5;margin:7px 0 0}
+    .booking-details .rate-disclaimer{font-size:11px;line-height:1.65;margin:13px 0 0;padding:12px;border-radius:0 7px 7px 0}
+    .booking-bottom{padding-top:25px;border-top:1px solid #e5ece8}
+
+    @media(max-width:880px){
+      .hero-content.wrap{padding-left:16px;padding-right:16px}
+      .hero-content-inner{max-width:450px}
+      .hero h1{font-size:clamp(49px,7.1vw,62px)}
+      .hero-offer{left:16px;right:auto}
+    }
+    @media(max-width:640px){
+      .hero{min-height:640px;height:min(745px,94svh)}
+      .hero-content.wrap{padding-left:12px;padding-right:12px;padding-top:44px;padding-bottom:112px}
+      .hero-content-inner{max-width:330px}
+      .hero-eyebrow{font-size:8px;line-height:1.5;margin-bottom:12px}
+      .hero h1{font-size:clamp(42px,11vw,52px);line-height:1.08;margin-bottom:13px}
+      .hero-copy{font-size:11px;max-width:290px;line-height:1.65;margin-bottom:15px}
+      .hero-actions .btn{font-size:9px;min-height:40px;padding:10px 12px}
+      .hero-meta{font-size:9px;gap:7px 12px;margin-top:14px}
+      .hero-offer{left:12px;right:12px;bottom:18px;max-width:none;padding:10px 14px}
+      .hero-offer strong{font-size:24px}
+      .hero-shade{background:linear-gradient(90deg,rgba(3,28,36,.8),rgba(5,30,39,.47) 61%,rgba(5,30,39,.1)),linear-gradient(0deg,rgba(4,31,39,.48),transparent 45%)}
+      .room-facts{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+      .room-fact strong{font-size:29px}
+      .room-fact span{font-size:10px;line-height:1.5}
+      .booking-details .rate-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0}
+      .booking-details .rate-option{min-height:0;padding:13px 10px 12px}
+      .booking-details .rate-number{font-size:25px}
+      .booking-details .rate-unit{font-size:9px}
+      .booking-details .rate-sub{font-size:10px}
+      .booking-details .rate-disclaimer{margin:12px 0 0;font-size:11px;padding:12px}
+      .booking-bottom{padding-top:21px}
+    }
+    @media(max-width:365px){
+      .hero h1{font-size:40px}
+      .hero-copy{max-width:264px}
+      .hero-actions .btn{font-size:8px;padding:9px 10px}
+      .room-facts{gap:7px}
+      .room-fact span{font-size:9px}
+      .booking-details .rate-number{font-size:23px}
+    }
+  </style>
+</head>
+<body>
+  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-waves" viewBox="0 0 24 24"><path d="M2 12c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 18c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m14-14.9a4 4 0 0 1 0 7.8M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18v-7m0 4h18m0 3V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3m0 0h18m-14 0V9h5v2"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></symbol>
+    <symbol id="i-kitchen" viewBox="0 0 24 24"><path d="M3 5h18v16H3zM3 12h18M7 8h.01M11 8h.01M7 16h4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 11v6m0-10h.01"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 8.8a15 15 0 0 1 20 0M5 12a10.5 10.5 0 0 1 14 0m-11 3.2a6 6 0 0 1 8 0M12 20h.01"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="m5 17-1 2v2m16-4 1 2v2M4 17V9l2-5h12l2 5v8H4zm0-8h16M7 13h.01M17 13h.01"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M12 8v13M2 8h20M12 8c-5 0-7-3-5-5s5 1 5 5zm0 0c5 0 7-3 5-5s-5 1-5 5z"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 8h14v7a7 7 0 0 1-14 0V8zm14 1h2a3 3 0 0 1 0 6h-2M3 22h18M8 2v3m5-3v3"/></symbol>
+  </svg>
+  <div class="topbar"><div class="wrap topbar-inner"><span>Skala Prinos · Thassos, Greece</span><span>2027 early booking · direct requests</span></div></div>
+  <header class="header" id="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Thassos Treasure Guesthouse homepage"><span class="brand-emblem"><svg class="ico"><use href="#i-waves"/></svg></span><span><span class="brand-name">Thassos Treasure</span><span class="brand-sub">Guesthouse · On the beach</span></span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#discover">Discover</a><a href="#rooms">Rooms</a><a href="#beach">Beach</a><a href="#booking">Early Booking</a><a href="#gallery">Gallery</a><a href="#giftshop">Giftshop</a><a href="#location">Location</a></nav>
+      <a href="#booking" class="btn btn-primary nav-book">Request a Stay <svg class="ico sm"><use href="#i-arrow"/></svg></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu"><svg class="ico" id="menuIcon"><use href="#i-menu"/></svg></button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation"><a href="#discover">Discover</a><a href="#rooms">Rooms available</a><a href="#beach">The beach</a><a href="#booking">Early booking 2027</a><a href="#gallery">Gallery & facilities</a><a href="#giftshop">Gift shop</a><a href="#location">Explore Thassos & location</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-img is-active" src="Assets/Images/Refugiu mediteranean lângă mare.webp" alt="Private beach area framed by greenery at Thassos Treasure" fetchpriority="high">
+        <img class="hero-img" src="Assets/Images/Șezlonguri turcoaz la apus.webp" alt="Turquoise sunbeds and straw parasols beside the sea at golden hour" fetchpriority="high">
+      </div>
+      <div class="hero-shade"></div>
+      <div class="wrap hero-content"><div class="hero-content-inner">
+        <p class="hero-eyebrow">Welcome to Thassos Treasure Guesthouse</p>
+        <h1 id="heroTitle">Sea days.<br><em>Treasure</em> moments.</h1>
+        <p class="hero-copy">A relaxed seaside hideaway in Skala Prinos, made for little escapes and meaningful time together. Your room, your people, and the beach just steps away.</p>
+        <div class="hero-actions"><a href="#booking" class="btn btn-primary">Explore Early Booking <svg class="ico sm"><use href="#i-arrow"/></svg></a><a href="#rooms" class="btn btn-outline">Discover the Rooms</a></div>
+        <div class="hero-meta"><span><svg class="ico"><use href="#i-bed"/></svg> 8 rooms</span><span><svg class="ico"><use href="#i-users"/></svg> Up to 16 guests</span><span><svg class="ico"><use href="#i-sun"/></svg> Guest sunbeds included</span></div>
+      </div></div>
+      <div class="hero-offer" id="heroOffer"><div><small>Early Booking 2027</small><strong id="heroPrice">From €60 <span>/ room / night</span></strong></div><p id="heroOfferNote">Pay in full · October 2026 booking rate</p></div>
+      <a class="scroll-cue" href="#discover">Scroll to discover</a>
+    </section>
+
+    <section class="section intro" id="discover" aria-labelledby="discoverTitle"><div class="wrap intro-grid">
+      <div class="intro-visual"><img class="intro-img" loading="lazy" src="Assets/Images/Coridor mediteranean către marea Thassos.webp" alt="Leafy walkway leading from Thassos Treasure towards the sea"><span class="intro-stamp">A little place<br>to feel at<br>home</span></div>
+      <div><p class="eyebrow">Discover Thassos Treasure</p><h2 id="discoverTitle">The kind of place you <em>come back to.</em></h2>
+      <p class="intro-copy">Some holidays stay with you long after the suitcases are unpacked. Think slow breakfasts, salty air, sun-warmed afternoons and the pleasure of having the sea close enough to become part of every day.</p>
+      <p class="intro-copy">At Thassos Treasure Guesthouse, comfortable private rooms meet the easy rhythm of shared holiday moments. Whether you arrive as a couple, a family or a group of friends, there's space to relax and enjoy the island in your own way.</p>
+      <div class="icon-features"><div class="icon-feature"><svg class="ico"><use href="#i-waves"/></svg> Beach just steps away</div><div class="icon-feature"><svg class="ico"><use href="#i-users"/></svg> For couples & groups</div><div class="icon-feature"><svg class="ico"><use href="#i-kitchen"/></svg> Shared kitchens</div><div class="icon-feature"><svg class="ico"><use href="#i-sun"/></svg> Sunbeds for guests</div></div>
+      <a href="#rooms" class="btn btn-dark">Feel at Home Here <svg class="ico sm"><use href="#i-arrow"/></svg></a>
+      </div></div></section>
+
+    <section class="section rooms" id="rooms" aria-labelledby="roomsTitle"><div class="wrap">
+      <div class="rooms-heading"><div><p class="eyebrow">Rooms available · Up to 16 guests</p><h2 id="roomsTitle">A room for two.<br><em>Space for everyone.</em></h2></div><p>Settle into your own private room, or plan a shared escape with the people who make holidays special. Tell us who's coming — we'll help you find the right arrangement.</p></div>
+      <div class="rooms-layout"><div class="rooms-main"><img loading="lazy" src="Assets/Images/Dormitor boho cu accente turcoaz și balcon luminos.webp" alt="Bright guesthouse bedroom with turquoise furnishings and balcony"><span class="rooms-main-note">Comfort, with a coastal touch</span></div><div class="rooms-side"><img loading="lazy" src="Assets/Images/Dormitor boho luminos cu accente turcoaz.webp" alt="Bedroom with bright turquoise textiles and daylight"><img loading="lazy" src="Assets/Images/Bucătărie luminoasă cu vedere la balcon.webp" alt="Airy shared kitchen and dining room opening to a sunny balcony"></div></div>
+      <div class="room-facts" aria-label="Guesthouse essentials">
+        <div class="room-fact"><strong>8</strong><span>Rooms with private bathrooms</span></div>
+        <div class="room-fact"><strong>16</strong><span>Up to 16 guests</span></div>
+        <div class="room-fact"><strong>2</strong><span>Fully equipped shared kitchens</span></div>
+      </div>
+      <p class="rooms-note">Each room is designed for two guests and has its own bathroom. Four rooms are located on each level, with a shared kitchen on that level. Travelling with children or a larger group? Send us your preferred dates and guest count; room arrangements are confirmed individually.</p>
+      <a class="btn btn-dark" href="#booking">Request Your Stay <svg class="ico sm"><use href="#i-arrow"/></svg></a>
+    </div></section>
+
+    <section class="section beach" id="beach" aria-labelledby="beachTitle"><div class="wrap beach-grid">
+      <div class="beach-collage"><img class="beach-tall" loading="lazy" src="Assets/Images/Refugiu mediteranean lângă mare.webp" alt="Framed view through a leafy walkway to sunbeds and the calm beach"><img class="beach-small" loading="lazy" src="Assets/Images/Plajă mediteraneană cu umbrele de paie.webp" alt="Straw parasols and turquoise sunbeds beside the beach"></div>
+      <div class="beach-text"><p class="eyebrow">Your beach · Your escape</p><h2 id="beachTitle">Your favourite place<br>is <em>right by the sea.</em></h2><p>The best days don't need much planning. Follow the sun, feel the sand beneath your feet and settle in for a few hours beside the water.</p><p>Our guests enjoy direct access to the beach and a dedicated beach area, with a sunbed included for every guest.</p>
+        <div class="beach-perks"><svg class="ico"><use href="#i-waves"/></svg> Direct access to the shoreline</div><div class="beach-perks"><svg class="ico"><use href="#i-sun"/></svg> One sunbed included for each guest</div>
+        <a href="#gallery" class="btn btn-dark">See Beach Photos <svg class="ico sm"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div></section>
+    <aside class="quote-band"><div class="wrap quote-row"><div><strong>Wake up to a different kind of holiday.</strong><br><span>Eight rooms. Endless seaside memories. Just one Thassos Treasure.</span></div><a class="btn btn-primary" href="#booking">Plan Summer 2027 <svg class="ico sm"><use href="#i-arrow"/></svg></a></div></aside>
+
+    <section class="booking" id="booking" aria-labelledby="bookingTitle"><div class="wrap">
+      <div class="booking-head"><p class="eyebrow">Book earlier · Enjoy more</p><h2 id="bookingTitle">2027 Early Booking <em>Rates</em></h2><p>Planning ahead has its rewards. Your room rate depends on <strong>when you book</strong>, not which month of 2027 you choose to stay.</p></div>
+      <div class="offer-intro"><div><div class="offer-mainlabel" id="offerPeriod">October 2026 · Current offer</div><div class="offer-price" id="offerMainPrice">From €60 <span>/ room / night</span></div><div class="offer-description" id="offerDescription">The starting rate is for one room per night with full payment. A 35% deposit option has a different nightly rate.</div></div><span class="price-refresh" id="offerStatus">Rate updates automatically</span></div>
+      <form class="booking-shell" id="bookingForm" novalidate>
+        <details class="rate-timetable"><summary>See the complete 2027 Early Booking price schedule <span aria-hidden="true">+</span></summary><div class="schedule-scroll"><table aria-label="Early booking rates by booking month"><thead><tr><th>Month you book</th><th>Pay in full</th><th>35% deposit</th></tr></thead><tbody id="rateScheduleBody"></tbody></table></div><p>All rates are per room, per night. The month you <strong>book</strong> determines the price, not the month you travel.</p></details>
+        <div class="booking-body"><div class="booking-calendar"><p class="panel-title">01 · Select your stay dates</p>
+          <div class="calendar-header"><button class="cal-arrow" type="button" id="calPrev" aria-label="Previous month"><svg class="ico sm"><use href="#i-left"/></svg></button><strong class="calendar-heading" id="calendarHeading">October – November 2026</strong><button type="button" class="cal-arrow" id="calNext" aria-label="Next month"><svg class="ico sm"><use href="#i-right"/></svg></button></div>
+          <div class="calendar-jump"><label class="hide" for="jumpMonth">Month</label><select id="jumpMonth" aria-label="Jump to month"></select><label class="hide" for="jumpYear">Year</label><select id="jumpYear" aria-label="Jump to year"></select><button class="quick-jump" type="button" id="jump2027">Go to 2027 ↗</button></div>
+          <div class="date-strip" aria-live="polite"><span>CHECK-IN <strong id="topCheckin">Select date</strong></span><span class="date-strip-arrow">→</span><span>CHECK-OUT <strong id="topCheckout">Select date</strong></span></div>
+          <div class="months" id="calendarMonths" aria-label="Two-month stay calendar"></div>
+          <div class="cal-helper"><svg class="ico"><use href="#i-info"/></svg><span>Choose check-in first, then check-out. Dates are requests only — this calendar does not indicate live availability. Use the arrows or month/year selectors to find your 2027 dates.</span></div>
+        </div><div class="booking-details"><p class="panel-title">02 · Your stay details</p>
+          <div class="selected-dates" aria-live="polite"><div class="date-box"><small>CHECK-IN</small><span id="checkinLabel">Select a date</span></div><div class="date-box"><small>CHECK-OUT</small><span id="checkoutLabel">Select a date</span></div></div>
+          <div class="field"><label for="guestCount">Guests <span class="required">*</span></label><select id="guestCount" name="guests" required></select></div>
+          <div class="field"><label for="roomCount">Rooms requested <span class="muted" style="font-weight:400">(optional)</span></label><select id="roomCount" name="rooms"><option value="">Not sure — please recommend</option></select></div>
+          <div class="payment-selector"><p class="payment-title">Choose your payment option</p>
+        <div class="rate-choices" role="radiogroup" aria-label="Choose your payment option">
+          <label class="rate-option"><input type="radio" name="payment" value="full" checked><p class="rate-label">Pay in Full</p><strong class="rate-number" id="fullRate">€60</strong><span class="rate-unit">/ room / night</span><p class="rate-sub">Full payment at confirmation.</p></label>
+          <label class="rate-option"><input type="radio" name="payment" value="deposit"><p class="rate-label">35% Deposit</p><strong class="rate-number" id="depositRate">€70</strong><span class="rate-unit">/ room / night</span><p class="rate-sub">35% at confirmation · 65% on arrival.</p></label>
+        </div>
+        <div class="rate-disclaimer" id="rateDisclaimer"><strong>Rate details:</strong> Rates shown are per room, per night for 2027 stays. The lowest rate requires full payment; the deposit option has a higher rate. Prices follow the calendar month when your booking is completed, not the month of your holiday. Availability and the final quote are confirmed by the property.</div>
+</div>
+          <div class="summary" aria-live="polite"><div class="summary-title">Your early booking estimate</div><div class="summary-line"><span>Room / night</span><strong id="sumRate">€60</strong></div><div class="summary-line"><span>Nights</span><strong id="sumNights">—</strong></div><div class="summary-line"><span>Rooms requested</span><strong id="sumRooms">To be advised</strong></div><div class="summary-rule"></div><div class="summary-line"><span>Estimated stay total</span><strong class="summary-total" id="sumTotal">—</strong></div><div id="sumDeposit" class="hide"><div class="summary-line"><span>35% on confirmation</span><strong id="sumDepositAmount">—</strong></div><div class="summary-line"><span>65% on arrival</span><strong id="sumBalanceAmount">—</strong></div></div><p class="summary-note" id="sumNote">Choose dates and, optionally, a number of rooms for an estimate. No room is held until the property confirms availability.</p></div>
+        </div></div>
+        <div class="booking-bottom"><div class="field"><label for="guestNotes">Additional details <span class="muted" style="font-weight:400">(optional)</span></label><textarea id="guestNotes" name="notes" maxlength="1500" placeholder="Travelling with little ones? Need help with room arrangements? Add any useful detail here."></textarea></div>
+          <button class="btn btn-dark request-btn" type="submit">Book Now <svg class="ico sm"><use href="#i-arrow"/></svg></button><p class="booking-legal">Your request will be sent directly to the property for confirmation. <strong>No reservation is confirmed and no payment is charged at this step.</strong> Availability and the final price are confirmed by the host.</p>
+        </div>
+      </form>
+    </div></section>
+
+    <section class="section gallery" id="gallery" aria-labelledby="galleryTitle"><div class="wrap"><div class="section-center"><p class="eyebrow">Stay a little longer</p><h2 id="galleryTitle">A closer look at <em>Thassos Treasure.</em></h2><p>From easygoing mornings to sun-drenched afternoons. Explore the rooms, beach and the welcoming spaces in between.</p></div>
+      <div class="gallery-controls" role="group" aria-label="Filter property photos"><button type="button" class="gallery-filter active" data-filter="all" aria-pressed="true">All photos</button><button type="button" class="gallery-filter" data-filter="rooms" aria-pressed="false">Rooms</button><button type="button" class="gallery-filter" data-filter="beach" aria-pressed="false">Beach</button><button type="button" class="gallery-filter" data-filter="kitchen" aria-pressed="false">Kitchen & dining</button><button type="button" class="gallery-filter" data-filter="details" aria-pressed="false">Spaces & details</button></div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+      <div class="facilities" aria-label="Property facilities"><span class="facility"><svg class="ico"><use href="#i-sun"/></svg> Air conditioning</span><span class="facility"><svg class="ico"><use href="#i-wifi"/></svg> Wi-Fi</span><span class="facility"><svg class="ico"><use href="#i-car"/></svg> Parking</span><span class="facility"><svg class="ico"><use href="#i-kitchen"/></svg> Shared equipped kitchens</span><span class="facility"><svg class="ico"><use href="#i-waves"/></svg> Guest beach sunbeds</span><span class="facility"><svg class="ico"><use href="#i-heart"/></svg> BBQ area</span></div>
+    </div></section>
+
+    <section class="gift" id="giftshop" aria-labelledby="giftTitle"><div class="wrap gift-grid"><div><p class="eyebrow">A little something to take home</p><h2 id="giftTitle">Discover our <em>Treasure Giftshop.</em></h2><p>Those favourite holiday moments deserve a little keepsake. Explore a charming selection of Thassos-inspired souvenirs and beach-day accessories — thoughtful reminders of the time you spent by the sea.</p><span class="gift-tag">Memories made here, treasures taken home</span></div><img loading="lazy" src="Assets/Images/Vitrină însorită cu suveniruri din Thassos.webp" alt="Gift shop display with Thassos hats, caps, sunglasses and souvenirs"></div></section>
+
+    <section class="location" id="location" aria-labelledby="locationTitle"><div class="wrap location-grid"><div><p class="eyebrow">Explore Thassos · Location</p><h2 id="locationTitle">Stay by the sea.<br><em>Explore the island.</em></h2><p>Find your seaside base in Skala Prinos on the island of Thassos, where a laid-back holiday is also the perfect invitation to explore more of Greece's green island.</p><p>From coastal walks and unhurried taverna lunches to discovering other beaches and villages, there's always another little treasure nearby.</p><a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Thassos%20Treasure%20Guesthouse%20Skala%20Prinos" target="_blank" rel="noopener noreferrer">Find Us on the Map <svg class="ico sm"><use href="#i-arrow"/></svg></a></div><div class="location-photo"><img loading="lazy" src="Assets/Images/Priveliste marină prin ușa balconului.webp" alt="Sea view through the balcony doors in Thassos"><div class="location-card"><svg class="ico lg"><use href="#i-map"/></svg><div>Skala Prinos, Thassos<small>Greece · Island of the northern Aegean</small></div></div></div></div></section>
+
+    <section class="faq" id="faq" aria-labelledby="faqTitle"><div class="wrap faq-grid"><div><p class="eyebrow">Before you arrive</p><h2 id="faqTitle">Good to <em>know.</em></h2></div><div class="faq-items">
+      <details class="faq-item"><summary>How many guests can stay at Thassos Treasure?</summary><p>There are eight rooms for two guests each, giving the guesthouse a base capacity of up to 16 people. If you're travelling with younger children, include the complete guest count in your request and we'll clarify the most suitable room arrangement.</p></details>
+      <details class="faq-item"><summary>Does each room have its own kitchen?</summary><p>No. Each room has its own private bathroom. There are two shared kitchens, one serving the four rooms on the ground floor and one serving the four rooms upstairs.</p></details>
+      <details class="faq-item"><summary>Are sunbeds included?</summary><p>Yes. Each registered guest has one sunbed included in the guest beach area. The property is located directly by the beach.</p></details>
+      <details class="faq-item"><summary>How are Early Booking 2027 rates calculated?</summary><p>The nightly rate is determined by the month in which the reservation is completed, not the month you travel. Full payment gives the lower nightly rate; alternatively a 35% deposit is due upon booking confirmation and 65% upon arrival, at the deposit-option rate.</p></details>
+      <details class="faq-item"><summary>Is my request an instant confirmed reservation?</summary><p>No. The guesthouse checks dates and available rooms manually, then confirms the arrangements and final price. Payment is not collected through this preview website.</p></details>
+    </div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap"><div class="footer-grid"><div><a class="brand" href="#top"><span class="brand-emblem"><svg class="ico"><use href="#i-waves"/></svg></span><span><span class="brand-name">Thassos Treasure</span><span class="brand-sub">Guesthouse · On the beach</span></span></a><p class="footer-description">Your seaside home in Skala Prinos, Thassos. Comfortable rooms, unhurried days and unforgettable moments by the water.</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="#rooms">Rooms</a><a href="#beach">Beach</a><a href="#booking">Early Booking</a><a href="#gallery">Gallery</a><a href="#giftshop">Giftshop</a><a href="#location">Location</a></nav></div><div class="footer-bottom"><span>© <span id="footerYear">2026</span> Thassos Treasure Guesthouse. All rights reserved.</span><span>Thoughtfully designed for unhurried holidays in Thassos.</span></div></div></footer>
+  <div class="mobile-cta" id="mobileCTA"><div class="mobile-cta-price"><strong id="mobilePrice">From €60</strong><span id="mobilePriceNote">/ room / night · pay in full</span></div><a href="#booking" class="btn btn-dark">Check Dates <svg class="ico sm"><use href="#i-arrow"/></svg></a></div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Photo gallery viewer" aria-modal="true"><button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo"><svg class="ico"><use href="#i-close"/></svg></button><button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous photo"><svg class="ico"><use href="#i-left"/></svg></button><img id="lightboxImage" alt="Expanded guesthouse photo"><button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next photo"><svg class="ico"><use href="#i-right"/></svg></button><span class="lightbox-caption" id="lightboxCaption"></span></div>
+  <div class="modal" id="requestModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button type="button" id="modalClose" class="modal-close" aria-label="Close request review"><svg class="ico"><use href="#i-close"/></svg></button><p class="eyebrow">Booking request · Preview</p><h3 id="modalTitle">Your booking request</h3><p class="muted" style="font-size:12px;margin-bottom:4px">Review the prepared request below.</p><div class="modal-notice"><strong>Your request has not been submitted yet.</strong> Copy the details and contact the host if the messaging app does not open.</div><pre class="modal-pre" id="requestPreview"></pre><div class="modal-actions"><button type="button" class="btn btn-dark" id="copyRequest">Copy Request <svg class="ico sm"><use href="#i-check"/></svg></button><button type="button" class="btn btn-mini" id="editRequest" style="background:#edf3ef;color:var(--sea)">Edit Details</button></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+  'use strict';
+  // THASSOS TREASURE — WEBSITE V3
+  // This client-side booking request prepares a message to the configured host contact.
+  // It does NOT confirm inventory or collect payments. Revalidate Athens time,
+  // rates, availability and guest/room capacity before accepting a booking.
+  const $ = (selector, root=document) => root.querySelector(selector);
+  const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
+  const WHATSAPP_NUMBER = '40755687296'; // Add the owner's WhatsApp number in international format, digits only. Example: 40712345678
+  const NIGHTLY_RATE_SCHEDULE = Object.freeze([
+    {start:202610,end:202610,full:60,deposit:70,label:'October 2026'},
+    {start:202611,end:202612,full:65,deposit:75,label:'November – December 2026'},
+    {start:202701,end:202702,full:75,deposit:85,label:'January – February 2027'},
+    {start:202703,end:202704,full:80,deposit:90,label:'March – April 2027'},
+    {start:202705,end:202706,full:85,deposit:95,label:'May – June 2027'},
+    {start:202707,end:202708,full:90,deposit:100,label:'July – August 2027'}
+  ]);
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const monthsShort = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const weekdays = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  const initialAthens = athensDateParts();
+  let calendarYear = initialAthens.year;
+  let calendarMonth = initialAthens.month - 1;
+  let checkin = null;
+  let checkout = null;
+  let currentRate = null;
+  let currentRateMonth = null;
+  let galleryFilter = 'all';
+  let galleryExpanded = false;
+  let galleryShown = [];
+  let lightboxIndex = 0;
+  let preparedRequestText = '';
+  let lastFocusBeforeDialog = null;
+  let heroSlideIndex = 0;
+
+  function athensDateParts() {
+    const parts = new Intl.DateTimeFormat('en-GB', {timeZone:'Europe/Athens', year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+    const fields = Object.fromEntries(parts.filter(p=>p.type!=='literal').map(p=>[p.type,Number(p.value)]));
+    return {year:fields.year,month:fields.month,day:fields.day};
+  }
+  function iso(y,m,d) { return `${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`; }
+  function todayISO() { const p=athensDateParts(); return iso(p.year,p.month,p.day); }
+  function monthIndex(y,m){return y*12+m;}
+  function toMonth(y,m){const date=new Date(Date.UTC(y,m,1));return {year:date.getUTCFullYear(),month:date.getUTCMonth()};}
+  function prettyDate(value){if(!value)return 'Select a date';const [y,m,d]=value.split('-').map(Number);return `${d} ${monthsShort[m-1]} ${y}`;}
+  function daysBetween(from,to){if(!from||!to)return 0;return Math.round((Date.parse(to+'T12:00:00Z')-Date.parse(from+'T12:00:00Z'))/86400000);}
+  function money(n){return '€'+new Intl.NumberFormat('en-IE',{maximumFractionDigits:2,minimumFractionDigits:Math.round(n*100)%100===0?0:2}).format(n)}
+  function getRate(){const a=athensDateParts();const period=a.year*100+a.month;return NIGHTLY_RATE_SCHEDULE.find(r=>period>=r.start&&period<=r.end)||null;}
+  function currentBookingRate(){const selected=$('input[name="payment"]:checked');return currentRate?currentRate[selected?selected.value:'full']:null;}
+
+  function updateRates(){
+    const a=athensDateParts();const stamp=a.year*100+a.month;
+    if(currentRateMonth===stamp)return;
+    currentRateMonth=stamp;
+    currentRate=getRate();
+    const hasRate=Boolean(currentRate);
+    $('#offerPeriod').textContent=hasRate?`${currentRate.label} · Booking offer`:'2027 stays · Request a quote';
+    $('#offerMainPrice').innerHTML=hasRate?`From ${money(currentRate.full)} <span>/ room / night</span>`:'Rate on request';
+    $('#offerDescription').textContent=hasRate?'Starting price for one room/night with full payment. The 35% deposit option has its own nightly rate.':'No published Early Booking 2027 rate exists for the current booking month. Please request an individual quote.';
+    $('#offerStatus').textContent=hasRate?'Updates with booking month':'Custom quotation required';
+    $('#fullRate').textContent=hasRate?money(currentRate.full):'Ask for quote';
+    $('#depositRate').textContent=hasRate?money(currentRate.deposit):'Ask for quote';
+    $('#heroPrice').innerHTML=hasRate?`From ${money(currentRate.full)} <span>/ room / night</span>`:'Rates on request';
+    $('#heroOfferNote').textContent=hasRate?`Pay in full · ${currentRate.label} booking rate`:'2027 stays · ask for a quote';
+    $('#mobilePrice').textContent=hasRate?`From ${money(currentRate.full)}`:'Request a quote';
+    $('#mobilePriceNote').textContent=hasRate?'/ room / night · pay in full':'2027 stay prices';
+    $('#heroOffer').classList.toggle('no-rate',!hasRate);
+    $('#mobileCTA').classList.toggle('no-rate',!hasRate);
+    $('#rateDisclaimer').innerHTML=hasRate?`<strong>Important:</strong> Rates are per room, per night. ${money(currentRate.full)} applies with full payment; the 35% deposit option is ${money(currentRate.deposit)}/night. The remaining 65% is paid <strong>on arrival</strong>. The offer is based on when the booking is <strong>completed</strong>, not the month you stay. Rates and availability must be confirmed by the property.`:'<strong>Important:</strong> The published 2027 Early Booking schedule does not cover the current booking month. We will not show an expired price. Send your request to obtain the current offer and confirm availability.';
+    updateEstimate();
+  }
+
+  function renderJumpSelectors(){
+    const monthSelect=$('#jumpMonth'),yearSelect=$('#jumpYear');
+    monthSelect.innerHTML=monthNames.map((v,i)=>`<option value="${i}">${v}</option>`).join('');
+    const now=athensDateParts();
+    const minYear=Math.min(now.year,2027);
+    const maxYear=Math.max(2028,now.year+1);
+    yearSelect.innerHTML=Array.from({length:maxYear-minYear+1},(_,i)=>`<option value="${minYear+i}">${minYear+i}</option>`).join('');
+    monthSelect.value=calendarMonth;yearSelect.value=calendarYear;
+  }
+  function drawCalendar(){
+    const first=toMonth(calendarYear,calendarMonth),second=toMonth(calendarYear,calendarMonth+1);
+    $('#calendarHeading').textContent=`${monthNames[first.month]} ${first.year} — ${monthNames[second.month]} ${second.year}`;
+    $('#jumpMonth').value=first.month;$('#jumpYear').value=first.year;
+    const earliest=toMonth(athensDateParts().year,athensDateParts().month-1);
+    $('#calPrev').disabled=monthIndex(first.year,first.month)<=monthIndex(earliest.year,earliest.month);
+    const today=todayISO();
+    const grid=$('#calendarMonths');grid.innerHTML='';
+    for(const period of [first,second]){
+      const monthElem=document.createElement('div');monthElem.className='calendar-month';
+      const name=document.createElement('div');name.className='month-title';name.textContent=`${monthNames[period.month]} ${period.year}`;monthElem.appendChild(name);
+      const days=document.createElement('div');days.className='days-grid';
+      weekdays.forEach(day=>{const head=document.createElement('span');head.className='weekday';head.textContent=day;days.appendChild(head)});
+      const firstWeekday=(new Date(Date.UTC(period.year,period.month,1)).getUTCDay()+6)%7;
+      const totalDays=new Date(Date.UTC(period.year,period.month+1,0)).getUTCDate();
+      for(let i=0;i<firstWeekday;i++){const empty=document.createElement('span');empty.className='cal-day blank';empty.setAttribute('aria-hidden','true');days.appendChild(empty)}
+      for(let day=1;day<=totalDays;day++){
+        const value=iso(period.year,period.month+1,day);
+        const btn=document.createElement('button');btn.className='cal-day';btn.type='button';btn.textContent=day;btn.dataset.date=value;
+        const isEndSelection=Boolean(checkin&&!checkout);
+        // We accept check-ins for 2027, and allow 1 January 2028 only as a checkout.
+        const minSelectable=today>'2027-01-01'?today:'2027-01-01';
+        btn.disabled=value<minSelectable||value>(isEndSelection?'2028-01-01':'2027-12-31');
+        btn.title=btn.disabled?'Not selectable for a 2027 stay':`${day} ${monthNames[period.month]} ${period.year}`;
+        btn.setAttribute('aria-label',btn.title);
+        if(value===today)btn.classList.add('today');
+        if(value===checkin)btn.classList.add('start-date');
+        if(value===checkout)btn.classList.add('end-date');
+        if(checkin&&checkout&&value>checkin&&value<checkout)btn.classList.add('in-range');
+        if(value===checkin||value===checkout)btn.setAttribute('aria-pressed','true');
+        if(!btn.disabled)btn.addEventListener('click',()=>chooseDate(value));
+        days.appendChild(btn);
+      }
+      monthElem.appendChild(days);grid.appendChild(monthElem);
+    }
+    $('#checkinLabel').textContent=prettyDate(checkin);
+    $('#checkoutLabel').textContent=prettyDate(checkout);
+    $('#topCheckin').textContent=checkin?prettyDate(checkin):'Select date';
+    $('#topCheckout').textContent=checkout?prettyDate(checkout):'Select date';
+    $('#calPrev').setAttribute('aria-label',`Go to month before ${monthNames[first.month]} ${first.year}`);
+    $('#calNext').setAttribute('aria-label',`Go to month after ${monthNames[second.month]} ${second.year}`);
+  }
+  function chooseDate(value){
+    if(!checkin||checkout){checkin=value;checkout=null;}
+    else if(value>checkin){checkout=value;}
+    else {checkin=value;checkout=null;}
+    drawCalendar();updateEstimate();
+    // The live date strip and booking summary provide feedback without obstructing the calendar.
+  }
+  function navigateMonths(delta){
+    const p=toMonth(calendarYear,calendarMonth+delta);const now=athensDateParts();
+    if(monthIndex(p.year,p.month)<monthIndex(now.year,now.month-1))return;
+    calendarYear=p.year;calendarMonth=p.month;drawCalendar();
+  }
+  function jumpCalendar(){
+    const y=Number($('#jumpYear').value),m=Number($('#jumpMonth').value),now=athensDateParts();
+    if(monthIndex(y,m)<monthIndex(now.year,now.month-1)){
+      calendarYear=now.year;calendarMonth=now.month-1;
+    }else{calendarYear=y;calendarMonth=m}
+    drawCalendar();
+  }
+  function updateEstimate(){
+    const nights=daysBetween(checkin,checkout);
+    const roomsValue=$('#roomCount').value;
+    const rooms=roomsValue?Number(roomsValue):null;
+    const rate=currentBookingRate();
+    const isDeposit=$('input[name="payment"]:checked')?.value==='deposit';
+    $('#sumRate').textContent=rate===null?'Quote needed':money(rate);
+    $('#sumNights').textContent=nights?nights:'—';
+    $('#sumRooms').textContent=rooms?`${rooms} ${rooms===1?'room':'rooms'}`:'To be advised';
+    const mayExceedRoomCapacity=Boolean(rooms&&Number($('#guestCount').value)>rooms*2);
+    const total=rate!==null&&nights&&rooms&&!mayExceedRoomCapacity?rate*nights*rooms:null;
+    $('#sumTotal').textContent=total!==null?money(total):'To be confirmed';
+    $('#sumDeposit').classList.toggle('hide',!isDeposit||total===null);
+    if(isDeposit&&total!==null){$('#sumDepositAmount').textContent=money(Math.round(total*.35*100)/100);$('#sumBalanceAmount').textContent=money(Math.round(total*.65*100)/100)}
+    const rateNote=!currentRate?'The current booking month is not covered by the published 2027 promotion. Your quote must be confirmed individually.':!nights?'Select your check-in and check-out dates to continue.':!rooms?'Rooms are optional. Your final stay total will be calculated once the owner recommends and confirms an arrangement.':mayExceedRoomCapacity?'Your guest count exceeds the standard capacity of the selected rooms. We will clarify the room arrangement before providing a total.':'Estimates depend on room allocation and the date your booking is completed. No availability is being held.';
+    $('#sumNote').textContent=rateNote;
+  }
+  function populateRateSchedule(){
+    const body=$('#rateScheduleBody');
+    NIGHTLY_RATE_SCHEDULE.forEach(r=>{
+      const tr=document.createElement('tr');
+      [r.label,money(r.full),money(r.deposit)].forEach(value=>{const td=document.createElement('td');td.textContent=value;tr.appendChild(td)});
+      body.appendChild(tr);
+    });
+  }
+  function populateBookingInputs(){
+    $('#guestCount').innerHTML=Array.from({length:16},(_,i)=>`<option value="${i+1}" ${i===1?'selected':''}>${i+1} ${i===0?'guest':'guests'}</option>`).join('');
+    $('#roomCount').insertAdjacentHTML('beforeend',Array.from({length:8},(_,i)=>`<option value="${i+1}">${i+1} ${i===0?'room':'rooms'}</option>`).join(''));
+    $('#guestCount').addEventListener('change',updateEstimate);
+    $('#roomCount').addEventListener('change',updateEstimate);
+    $$('input[name="payment"]').forEach(el=>el.addEventListener('change',updateEstimate));
+  }
+  function getRequestError(){
+    if(!checkin||!checkout)return 'Choose your check-in and check-out dates on the calendar.';
+    if(daysBetween(checkin,checkout)<=0)return 'Check-out must be after check-in.';
+    return null;
+  }
+  function buildRequestSummary(){
+    const guests=Number($('#guestCount').value),rooms=$('#roomCount').value,nights=daysBetween(checkin,checkout),payment=$('input[name="payment"]:checked').value;
+    const rate=currentBookingRate();
+    const roomNumber=rooms?Number(rooms):null;
+    const total=rate!==null&&nights&&roomNumber&&guests<=roomNumber*2?rate*nights*roomNumber:null;
+    return [
+      'Hello! I would like to request a stay at Thassos Treasure Guesthouse.',
+      '',
+      `Check-in: ${prettyDate(checkin)}`,
+      `Check-out: ${prettyDate(checkout)}`,
+      `Nights: ${nights}`,
+      `Guests: ${guests}`,
+      `Rooms requested: ${rooms?rooms:'Not specified yet — please recommend'}`,
+      `Preferred payment: ${payment==='full'?'Pay in full':'35% deposit now · 65% on arrival'}`,
+      `Current advertised rate: ${rate===null?'Please confirm the current offer':`${money(rate)} / room / night`}`,
+      `Estimated stay total: ${total===null?'To be confirmed after room allocation and final review':money(total)}`,
+      ...(total!==null&&payment==='deposit'?[`35% on confirmation: ${money(Math.round(total*.35*100)/100)}`,`65% on arrival: ${money(Math.round(total*.65*100)/100)}`]:[]),
+      `Additional details: ${$('#guestNotes').value.trim()||'None'}`,
+      '',
+      'Please confirm availability, room allocation and the final total.',
+      'I understand that the rate depends on the month when the reservation is completed (Europe/Athens).'
+    ].join('\n');
+  }
+  function submitLocalPreview(event){
+    event.preventDefault();updateRates();const error=getRequestError();
+    if(error){announce(error);if(!checkin||!checkout){$('#booking').scrollIntoView({behavior:'smooth'})}return}
+    preparedRequestText=buildRequestSummary();
+    const digits=WHATSAPP_NUMBER.replace(/\D/g,'');
+    if(digits){
+      const url=`https://wa.me/${digits}?text=${encodeURIComponent(preparedRequestText)}`;
+      window.open(url,'_blank','noopener');
+      announce('Your booking request is ready to send.');
+      return;
+    }
+    $('#requestPreview').textContent=preparedRequestText;
+    lastFocusBeforeDialog=document.activeElement;$('#requestModal').classList.add('open');document.body.classList.add('no-scroll');$('#modalClose').focus();
+    announce('Add the WhatsApp number in the code to enable direct sending.');
+  }
+  function closeModal(){ $('#requestModal').classList.remove('open');document.body.classList.remove('no-scroll');lastFocusBeforeDialog?.focus(); }
+  async function copyRequest(){
+    try{
+      if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(preparedRequestText);
+      else {const tmp=document.createElement('textarea');tmp.value=preparedRequestText;tmp.style.position='fixed';tmp.style.opacity='0';document.body.appendChild(tmp);tmp.select();if(!document.execCommand('copy'))throw Error('copy not supported');tmp.remove();}
+      announce('Request details copied to clipboard.');
+    }catch(e){announce('Select and copy the request details from the review window.');}
+  }
+  let toastTimeout;
+  function announce(message){const toast=$('#toast');toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>toast.classList.remove('show'),3500)}
+
+  // Keep all original filenames and images as delivered by the property.
+  const photos=[
+    {file:'Șezlonguri turcoaz la apus.webp',group:'beach',label:'Golden-hour beach'},
+    {file:'Dormitor boho cu accente turcoaz și balcon luminos.webp',group:'rooms',label:'Sunny guest room'},
+    {file:'Refugiu mediteranean lângă mare.webp',group:'beach',label:'To the sea'},
+    {file:'Bucătărie luminoasă cu vedere la balcon.webp',group:'kitchen',label:'Shared kitchen & dining'},
+    {file:'Dormitor boho luminos cu accente turcoaz.webp',group:'rooms',label:'Coastal room'},
+    {file:'Plajă mediteraneană cu umbrele de paie.webp',group:'beach',label:'Beachside sunbeds'},
+    {file:'Coridor mediteranean către marea Thassos.webp',group:'details',label:'The seaside walkway'},
+    {file:'Dormitor boem cu vedere la mare.webp',group:'rooms',label:'Room with a view'},
+    {file:'Priveliste marină prin ușa balconului.webp',group:'details',label:'Sea-view balcony'},
+    {file:'Bucătărie coastală cu vedere însorită.webp',group:'kitchen',label:'Kitchen facilities'},
+    {file:'Vacanță mediteraneană sub umbrele de paie.webp',group:'beach',label:'Days in the sun'},
+    {file:'Dormitor coastal luminos cu accente turcoaz.webp',group:'rooms',label:'Blue-accent guest room'},
+    {file:'Stațiune mediteraneană sub umbrar turcoaz.webp',group:'beach',label:'The guest beach area'},
+    {file:'Dormitor boho cu accente marine.webp',group:'rooms',label:'Room details'},
+    {file:'Dormitor boho luminos cu accente aqua.webp',group:'rooms',label:'Soft coastal touches'},
+    {file:'Baie modernă cu accente marine.webp',group:'details',label:'Private bathroom'},
+    {file:'Baie scandinavă cu accente marine.webp',group:'details',label:'Guest bathroom'},
+    {file:'Luminos colț mediteranean pentru cafea.webp',group:'kitchen',label:'Morning coffee spot'},
+    {file:'Hol mediteranean luminos și boem.webp',group:'details',label:'Inside the guesthouse'},
+    {file:'Hol cu accente marine și uși colorate.webp',group:'details',label:'Colourful interior details'},
+    {file:'Hol însorit cu scară de marmură.webp',group:'details',label:'Guesthouse stairs'},
+    {file:'Perne decorative în stil marin###.webp',group:'details',label:'Coastal-inspired details'},
+    {file:'Vitrină însorită cu suveniruri din Thassos.webp',group:'details',label:'Treasure Giftshop'}
+  ];
+  function imagePath(file){return 'Assets/Images/'+encodeURIComponent(file)}
+  function renderGallery(){
+    const matching=photos.filter(p=>galleryFilter==='all'||p.group===galleryFilter);
+    galleryShown=galleryExpanded?matching:matching.slice(0,galleryFilter==='all'?10:8);
+    const grid=$('#galleryGrid');grid.innerHTML='';
+    galleryShown.forEach((photo,index)=>{
+      const button=document.createElement('button');button.type='button';button.className='gallery-tile';button.setAttribute('aria-label',`Open image: ${photo.label}`);
+      const image=document.createElement('img');image.loading='lazy';image.src=imagePath(photo.file);image.alt=photo.label;
+      const label=document.createElement('span');label.textContent=photo.label;
+      const plus=document.createElement('span');plus.className='gallery-plus';plus.textContent='+';plus.setAttribute('aria-hidden','true');
+      button.append(image,label,plus);button.addEventListener('click',()=>openLightbox(index));grid.appendChild(button);
+    });
+    let showMore=$('#showMorePhotos');
+    if(!showMore){showMore=document.createElement('button');showMore.id='showMorePhotos';showMore.type='button';showMore.className='btn btn-dark';showMore.style.margin='27px auto 0';showMore.style.display='flex';grid.insertAdjacentElement('afterend',showMore)}
+    showMore.textContent=galleryExpanded?'Show Fewer Photos':`View All ${matching.length} Photos`;
+    showMore.classList.toggle('hide',!galleryExpanded&&matching.length===galleryShown.length);
+    showMore.onclick=()=>{galleryExpanded=!galleryExpanded;renderGallery()};
+  }
+  function openLightbox(index){lightboxIndex=index;lastFocusBeforeDialog=document.activeElement;refreshLightbox();$('#lightbox').classList.add('open');document.body.classList.add('no-scroll');$('#lightboxClose').focus()}
+  function refreshLightbox(){const photo=galleryShown[lightboxIndex];$('#lightboxImage').src=imagePath(photo.file);$('#lightboxImage').alt=photo.label;$('#lightboxCaption').textContent=`${photo.label} · ${lightboxIndex+1} of ${galleryShown.length}`}
+  function shiftLightbox(delta){lightboxIndex=(lightboxIndex+delta+galleryShown.length)%galleryShown.length;refreshLightbox()}
+  function closeLightbox(){$('#lightbox').classList.remove('open');document.body.classList.remove('no-scroll');lastFocusBeforeDialog?.focus()}
+  function setupHeroSlider(){
+    const slides=$$('.hero-img');
+    if(slides.length<2)return;
+    window.setInterval(()=>{
+      heroSlideIndex=(heroSlideIndex+1)%slides.length;
+      slides.forEach((slide,index)=>slide.classList.toggle('is-active',index===heroSlideIndex));
+    },5000);
+  }
+  function setupMobileMenu(){
+    const toggle=$('#menuToggle'),menu=$('#mobileMenu');
+    function close(){menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation menu');$('#menuIcon use').setAttribute('href','#i-menu')}
+    toggle.addEventListener('click',()=>{const opening=!menu.classList.contains('open');menu.classList.toggle('open',opening);toggle.setAttribute('aria-expanded',String(opening));toggle.setAttribute('aria-label',opening?'Close navigation menu':'Open navigation menu');$('#menuIcon use').setAttribute('href',opening?'#i-close':'#i-menu')});
+    $$('a',menu).forEach(a=>a.addEventListener('click',close));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+  }
+  function setupEvents(){
+    $('#calPrev').addEventListener('click',()=>navigateMonths(-1));
+    $('#calNext').addEventListener('click',()=>navigateMonths(1));
+    $('#jumpMonth').addEventListener('change',jumpCalendar);
+    $('#jumpYear').addEventListener('change',jumpCalendar);
+    $('#jump2027').addEventListener('click',()=>{calendarYear=2027;calendarMonth=0;drawCalendar()});
+    $('#bookingForm').addEventListener('submit',submitLocalPreview);
+    $('#modalClose').addEventListener('click',closeModal);$('#editRequest').addEventListener('click',closeModal);
+    $('#copyRequest').addEventListener('click',copyRequest);
+    $('#requestModal').addEventListener('click',e=>{if(e.target===$('#requestModal'))closeModal()});
+    $$('.gallery-filter').forEach(button=>button.addEventListener('click',()=>{galleryFilter=button.dataset.filter;galleryExpanded=false;$$('.gallery-filter').forEach(el=>{const active=el===button;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active))});renderGallery()}));
+    $('#lightboxClose').addEventListener('click',closeLightbox);
+    $('#lightboxPrev').addEventListener('click',()=>shiftLightbox(-1));
+    $('#lightboxNext').addEventListener('click',()=>shiftLightbox(1));
+    $('#lightbox').addEventListener('click',e=>{if(e.target===$('#lightbox'))closeLightbox()});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#lightbox').classList.contains('open'))closeLightbox();if($('#requestModal').classList.contains('open'))closeModal()}if($('#lightbox').classList.contains('open')){if(e.key==='ArrowRight')shiftLightbox(1);if(e.key==='ArrowLeft')shiftLightbox(-1)}});
+  }
+  function refreshIfDateChanges(){
+    updateRates();
+    const today=todayISO();
+    if(checkin&&checkin<today){checkin=null;checkout=null;updateEstimate()}
+    drawCalendar();
+  }
+  function init(){
+    $('#footerYear').textContent=new Date().getFullYear();
+    populateRateSchedule();populateBookingInputs();renderJumpSelectors();drawCalendar();updateRates();updateEstimate();renderGallery();setupEvents();setupMobileMenu();setupHeroSlider();
+    // Re-check every minute in case the website stays open across a rate-month boundary.
+    window.setInterval(refreshIfDateChanges,60000);
+  }
+  init();
+  </script>
+</body>
+</html>
